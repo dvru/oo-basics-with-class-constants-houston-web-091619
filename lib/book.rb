@@ -12,6 +12,12 @@ class Book
     # @@all << self
   end
   
+  def genre=(genre)
+    @genre = genre
+    GENRES << genre 
+  end
+  
+  
   # def self.all
   #   @@all
   # end
